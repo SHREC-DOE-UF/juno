@@ -33,7 +33,7 @@ make
 5. Compile the GUPS program  
 ```bash
 cd ../test/asm
-../../asm/sst-juno-asm -i gups.juno -o gups.bin"
+../../asm/sst-juno-asm -i gups.juno -o gups.bin
 ```
 
 6. Run SST to simulate GUPS on Juno processor
