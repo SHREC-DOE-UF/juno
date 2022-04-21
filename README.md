@@ -42,4 +42,9 @@ cd ../sst
 sst juno-test.py
 ```  
 
-_**Note:**_ `juno-test.py` is the python file with system-config information where you can change parameters like `CPU frequency`, `memory frequency`, `cache size`, etc.  
+6. Run SST to simulate GUPS on Miranda processor
+```bash
+sst test-miranda.py
+```  
+
+_**Note:**_ `juno-test.py` and `test-miranda.py` are the python files with system-config information where you can change parameters like `CPU frequency`, `memory frequency`, `cache size`, etc.  
